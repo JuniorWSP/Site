@@ -13,20 +13,54 @@
             colocar link de imagens, rel = referencia do icone, href = referencia, endereço ou pasta da imagem-->
 
             <style> 
+                
                 #titulo {
+                    line-height: 55px;
+                    font-weight: 600px;
+                    text-align: left;
+                    letter-spacing: -1px;
                     color: green;
+                }
+                .sub-titulo {
+                    font-size: 28px;
+                    line-height: 42px;
+                    font-weight: 600px;
+                    text-align: center;
+                    color: #11a36a;
                 }
                 .paragrafo {
-                    color: green;
+                    color: #11a36a;
 
                 }
+                .nome {
+                    font-size: 14px;
+                    line-height: 20px;
+                    font-weight: 600px;
+                    color: #11a36a;
+                }
+                body {
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+                    
+                }
+                p {
+                    font-size: 16px;
+                    color: #323f3a;
+                }
+                            
 
             </style>
             <!--Tag id faz modificações no estilo da pagina, coloca o id na frente do local a ser modificado,
             acrescenta um nome e coloca # na frente do nome para dizer que é um id (o id deve ser adotado
             apenas a 1 elemento por boas praticas)-->
+            <!--Função line-height referente ao espaçamento entre linhas-->
+            <!--font-weight referente a largura da letra-->
+            <!--text-align referente ao alinhamento da pagina-->
+            <!--letter-spacing referente ao espaço entre letras-->
             <!--Tag class faz personalização em mais de um elemento, coloca class na frente do local a ser
             modificado, acrescenta um nome e coloca . na frente do nome para dizer que é uma classe-->
+            <!--Stilo font-family utilizado para mudança do modelo fonte-->
+            <!--Stilo font-size utilizado para mudança do tamanho da fonte-->
+            <!--Stilo color nesse caso muda a cor da fonte-->
     </head>
 
     <body> <!--Tag corpo do site-->
@@ -45,7 +79,7 @@
 
              <a href="https://betrybe.com">Inscreva-se no processo seletivo</a>    
 
-             <h2>A Trybe é para todos, inclusive para VOCÊ.</h2>
+             <h2 class="sub-titulo">A Trybe é para todos, inclusive para VOCÊ.</h2>
            
              <p>
                 Para você que <strong>já é estudante de computação</strong>, para você que <strong>
@@ -64,7 +98,7 @@
                 entrar na Trybe para me tornar desenvolvedor de software."</em></p>
                 <!--Tag deixa o texto em italico-->
 
-            <h4>Conrado Medeiros
+            <h4 class="nome">Conrado Medeiros
                 ‍Aluno da Turma de Setembro - BH
                 </h4>
 
@@ -72,7 +106,7 @@
 
             <p><em>"Eu não sabia nada de programação! Estudei os conteúdos gratuitos disponibilizados, consegui 
                 fazer o processo e passar. Estou aqui firme e forte para conseguir virar um desenvolvedor."</em></p>
-            <h4>Gabriel dos Santos
+            <h4 class="nome">Gabriel dos Santos
                 ‍Aluno da Turma de Setembro - BH</h4>
 
             <img src="/imagens/Anderson.png" alt="Foto de um homem sorrindo" width="50px">
@@ -80,14 +114,14 @@
             <p><em>"Sou estudante de Engenharia Química e entrei na Trybe sem nenhuma experiência na área e 
                 estou animado para me tornar desenvolvedor."</em></p>
 
-            <h4>Anderson Bolivar
+            <h4 class="nome">Anderson Bolivar
                 Aluno da Turma de Setembro - BH</h4>
         
-            <h2>Quem somos e por que estamos aqui?</h2>
+            <h2 class="verde">Quem somos e por que estamos aqui?</h2>
         
             <p></p>
         
-            <h2>Como é a formação?</h2>
+            <h2 class="verde">Como é a formação?</h2>
         
             <ul> <!--Tag referente a lista não ordenada, sendo ol = é para lista ordenada-->  
                 <li>Atividades online, offline e apoio individual para cada aluno</li>
