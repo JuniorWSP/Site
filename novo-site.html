@@ -32,11 +32,21 @@
                     color: #11a36a;
 
                 }
-                .nome {
+                .texto-nome {
                     font-size: 14px;
                     line-height: 20px;
                     font-weight: 600px;
-                    color: #11a36a;
+                    color: #11a36a;                    
+                }
+                .texto-foto {
+                    border-radius: 100px;
+                    width: 120px;
+                }
+                .botao {
+                   background-color: #11a36a; 
+                   color: #fff;
+                   border-radius: 4px;
+                   text-decoration:none;
                 }
                 body {
                     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
@@ -61,6 +71,10 @@
             <!--Stilo font-family utilizado para mudança do modelo fonte-->
             <!--Stilo font-size utilizado para mudança do tamanho da fonte-->
             <!--Stilo color nesse caso muda a cor da fonte-->
+            <!--Stili background-color cor em volta -->
+            <!--Stilo border-radius arredonda as bordas da foto-->
+            <!--Stilo width meche no tamanho da foto-->
+            <!--Stilo text-decoration -->
     </head>
 
     <body> <!--Tag corpo do site-->
@@ -77,7 +91,7 @@
                 para colocar imagens src = local que a imagem fica no computador, alt = informação do que 
                 é a imagem, width = ajuste de tamanho da imagem pode ser px, %, ou outros-->
 
-             <a href="https://betrybe.com">Inscreva-se no processo seletivo</a>    
+             <a class="botao" href="https://betrybe.com">Inscreva-se no processo seletivo</a>    
 
              <h2 class="sub-titulo">A Trybe é para todos, inclusive para VOCÊ.</h2>
            
@@ -92,29 +106,29 @@
 
         <strong>E QUE TENHA MUITA VONTADE E DEDICAÇÃO!</strong></p>
 
-            <img src="/imagens/Conrado.png" alt="Foto de um homem sorrindo" width="50px">
+            <img class="texto-foto" src="/imagens/Conrado.png" alt="Foto de um homem sorrindo" width="50px">
 
             <p><em>"Eu trabalho com Marketing e não tinha nenhuma formação ou experiência na área e consegui 
                 entrar na Trybe para me tornar desenvolvedor de software."</em></p>
                 <!--Tag deixa o texto em italico-->
 
-            <h4 class="nome">Conrado Medeiros
+            <h4 class="texto-nome">Conrado Medeiros
                 ‍Aluno da Turma de Setembro - BH
                 </h4>
 
-            <img src="/imagens/Gabriel.png" alt="Foto de um homem sorrindo" width="50px">
+            <img class="texto-foto" src="/imagens/Gabriel.png" alt="Foto de um homem sorrindo" width="50px">
 
             <p><em>"Eu não sabia nada de programação! Estudei os conteúdos gratuitos disponibilizados, consegui 
                 fazer o processo e passar. Estou aqui firme e forte para conseguir virar um desenvolvedor."</em></p>
-            <h4 class="nome">Gabriel dos Santos
+            <h4 class="texto-nome">Gabriel dos Santos
                 ‍Aluno da Turma de Setembro - BH</h4>
 
-            <img src="/imagens/Anderson.png" alt="Foto de um homem sorrindo" width="50px">
+            <img class="texto-foto" src="/imagens/Anderson.png" alt="Foto de um homem sorrindo" width="50px">
 
             <p><em>"Sou estudante de Engenharia Química e entrei na Trybe sem nenhuma experiência na área e 
                 estou animado para me tornar desenvolvedor."</em></p>
 
-            <h4 class="nome">Anderson Bolivar
+            <h4 class="texto-nome">Anderson Bolivar
                 Aluno da Turma de Setembro - BH</h4>
         
             <h2 class="verde">Quem somos e por que estamos aqui?</h2>
