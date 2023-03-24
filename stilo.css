@@ -1,0 +1,55 @@
+<style> 
+                
+                #titulo {
+                    line-height: 55px;
+                    font-weight: 600px;
+                    text-align: left;
+                    letter-spacing: -1px;
+                    color: green;
+                }
+                #cabeçalho {
+                    background-image: url('/imagens/sorrizo.png');
+                    background-position: 50% 25%;
+                    background-size: cover;
+                }
+                .sub-titulo {
+                    font-size: 28px;
+                    line-height: 42px;
+                    font-weight: 600px;
+                    text-align: center;
+                    color: #11a36a;
+                }
+                .paragrafo {
+                    color: #11a36a;
+
+                }
+                .texto-nome {
+                    font-size: 14px;
+                    line-height: 20px;
+                    font-weight: 600px;
+                    color: #11a36a;                    
+                }
+                .texto-foto {
+                    border-radius: 100px;
+                    width: 120px;
+                }
+                .botao {
+                   background-color: #11a36a; 
+                   color: #fff;
+                   border-radius: 4px;
+                   text-decoration:none;
+                   padding: 15px 30px;
+                   font-size: 16px;
+                   font-weight: 600px;
+                }
+                body {
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+                    
+                }
+                p {
+                    font-size: 16px;
+                    color: #323f3a;
+                }
+                            
+
+</style>

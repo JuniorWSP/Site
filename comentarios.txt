@@ -1,0 +1,25 @@
+<!DOCTYPE html> = Fala que o tipo de documento é html
+<html></html> = Tag de abertura e fechamanto
+<head></head> = Tag cabeça, conteudo essencial e não visivel como sendo o cabeçalho
+<body></body> = Tag corpo do site
+<meta charset="utf 8"> = Tag que informa o conjuto de caracteres que vai renderizar, charset = padrão
+<title></title> = Tag de titulo da aba
+<link rel="" href=""> = Tag para colocar link de imagens, rel = referencia do icone, href = referencía, endereço ou pasta da imagem
+#id = faz modificações de estilo da pagina, (o id deve ser adotado apenas a 1 elemento por boas praticas)
+.class = Tag faz personalização em mais de um elemento, coloca class na frente do local a ser modificado, acrescenta um nome e coloca . na frente do nome para dizer que é uma classe
+STILO = line-height = referente ao espaçamento entre linhas
+STILO = font-weight = referente a largura da letra
+STILO = text-align = referente ao alinhamento da pagina
+STILO = letter-spacing = referente ao espaço entre letras
+STILO = font-family = utilizado para mudança do modelo fonte
+STILO = font-size = utilizado para mudança do tamanho da fonte
+STILO = color = nesse caso muda a cor da fonte
+STILO = background-color = cor em volta
+STILO = background-size preserva a proporção da imagem
+STILO = background-position = indica quais posições da imagem se quer mostrar
+STILO = border-radius = arredonda as bordas da foto
+STILO = width = meche no tamanho da foto
+STILO = text-decoration = coloca linha sublinhado, tracejado, riscado, etc na fonte
+STILO = padding = empurra o conteudo pra dentro e deixa um espaço em volta
+Quando utilizo o # signifia que ele criou um link mais nao leva a lugar algum
+ 

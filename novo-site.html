@@ -1,101 +1,33 @@
-<!DOCTYPE html> <!--Fala que o tipo de documento é html-->
+<!DOCTYPE html> 
 
-<html> <!--Tag de abertura e fechamanto-->
+<html>
 
-    <head> <!--Tag cabeça, conteudo essencial e não visivel como sendo o cabeçalho-->
+    <head> 
 
-        <meta charset="utf 8"> <!--Tag que informa o conjuto de caracteres que vai renderizar, 
-            charset = padrão-->
+        <meta charset="utf 8">
 
-        <title>Acelere sua carreira aqui e agora</title> <!--Tag de titulo da aba-->
+        <title>Acelere sua carreira aqui e agora</title>
 
-        <link rel="shortcut icon" href="/imagens/Captura de tela de 2023-03-23 21-38-33.png"> <!--Tag para 
-            colocar link de imagens, rel = referencia do icone, href = referencia, endereço ou pasta da imagem-->
+        <link rel="shortcut icon" href="/imagens/icone.png">
+            <link rel="stylesheet" href="stilo.css">
 
-            <style> 
-                
-                #titulo {
-                    line-height: 55px;
-                    font-weight: 600px;
-                    text-align: left;
-                    letter-spacing: -1px;
-                    color: green;
-                }
-                .sub-titulo {
-                    font-size: 28px;
-                    line-height: 42px;
-                    font-weight: 600px;
-                    text-align: center;
-                    color: #11a36a;
-                }
-                .paragrafo {
-                    color: #11a36a;
-
-                }
-                .texto-nome {
-                    font-size: 14px;
-                    line-height: 20px;
-                    font-weight: 600px;
-                    color: #11a36a;                    
-                }
-                .texto-foto {
-                    border-radius: 100px;
-                    width: 120px;
-                }
-                .botao {
-                   background-color: #11a36a; 
-                   color: #fff;
-                   border-radius: 4px;
-                   text-decoration:none;
-                   padding: 15px 30px;
-                   font-size: 16px;
-                   font-weight: 600px;
-                }
-                body {
-                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-                    
-                }
-                p {
-                    font-size: 16px;
-                    color: #323f3a;
-                }
-                            
-
-            </style>
-            <!--Tag id faz modificações no estilo da pagina, coloca o id na frente do local a ser modificado,
-            acrescenta um nome e coloca # na frente do nome para dizer que é um id (o id deve ser adotado
-            apenas a 1 elemento por boas praticas)-->
-            <!--Função line-height referente ao espaçamento entre linhas-->
-            <!--font-weight referente a largura da letra-->
-            <!--text-align referente ao alinhamento da pagina-->
-            <!--letter-spacing referente ao espaço entre letras-->
-            <!--Tag class faz personalização em mais de um elemento, coloca class na frente do local a ser
-            modificado, acrescenta um nome e coloca . na frente do nome para dizer que é uma classe-->
-            <!--Stilo font-family utilizado para mudança do modelo fonte-->
-            <!--Stilo font-size utilizado para mudança do tamanho da fonte-->
-            <!--Stilo color nesse caso muda a cor da fonte-->
-            <!--Stili background-color cor em volta -->
-            <!--Stilo border-radius arredonda as bordas da foto-->
-            <!--Stilo width meche no tamanho da foto-->
-            <!--Stilo text-decoration coloca linha sublinhado, tracejado, riscado, etc na fonte-->
-            <!--Stilo padding empurra o conteudo pra dentro e deixa um espaço em volta-->
+            
     </head>
 
     <body> <!--Tag corpo do site-->
+        <div id="cabeçalho">
         
         <h1 id="titulo">Sua carreira de sucesso em tecnologia começa aqui. Agora.</h1> <!--Tag para colocar textos
         de arcordo com o tamanho, quanto menor o h maio a fonte-->
         
-        <p class="paragrafo">Com atividades presenciais e online, mentorias individuais e desafios práticos, a Trybe é a escola do futuro e para o futuro que acelera sua carreira em desenvolvimento de software em até 12 meses.</p>
+            <p class="paragrafo">Com atividades presenciais e online, mentorias individuais e desafios práticos, a Trybe é a escola do futuro e para o futuro que acelera sua carreira em desenvolvimento de software em até 12 meses.</p>
             ‍
             <p class="paragrafo">E o melhor? Você não paga nada até conseguir um trabalho com uma remuneração de, no mínimo, R$ 3.000,00 por mês.</p>
-            <!--Tag utilizada para paragrafos-->
+            <!--Tag utilizada para paragrafos-->             
 
-            <img src="/imagens/Captura de tela.png" alt="Foto de um homem sorrindo" width="450px"> <!--Tag 
-                para colocar imagens src = local que a imagem fica no computador, alt = informação do que 
-                é a imagem, width = ajuste de tamanho da imagem pode ser px, %, ou outros-->
+             <a class="botao" href="https://betrybe.com">Inscreva-se no processo seletivo</a>
 
-             <a class="botao" href="https://betrybe.com">Inscreva-se no processo seletivo</a>    
+        </div>
 
              <h2 class="sub-titulo">A Trybe é para todos, inclusive para VOCÊ.</h2>
            
@@ -134,8 +66,7 @@
 
             <h4 class="texto-nome">Anderson Bolivar
                 Aluno da Turma de Setembro - BH</h4>
-        
-            <h2 class="verde">Quem somos e por que estamos aqui?</h2>
+                
         
             <p></p>
         
@@ -148,5 +79,11 @@
                 <li>Vivência das rotinas e processos reais de desenvolvimento das empresas de ponta</li>   
                 <!--Tag referente a cada elemento da lista-->     
         </ul>
+        <img src="/imagens/learning-web.jpg" alt="duas pessoas com o notebook no colo" width="300px">
+        <!--Tag 
+                para colocar imagens src = local que a imagem fica no computador, alt = informação do que 
+                é a imagem, width = ajuste de tamanho da imagem pode ser px, %, ou outros-->
+        <h4 class="verde">Quer saber mais sobre nossa formação?</h4>
+        <a class="botao" href="#">Faça download do nosso curriculo</a>
     </body>
 </html>
